@@ -6,7 +6,7 @@ body {
 }
 
 .parallax {
-    background-image: url('pexels-markusspiske-193350.jpg'); /* Add your image here */
+    background-image: url('https://images.pexels.com/photos/193350/pexels-photo-193350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Add your image here */
     height: 500px;
     background-attachment: fixed;
     background-position: center;
