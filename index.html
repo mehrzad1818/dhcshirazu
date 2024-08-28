@@ -1,24 +1,19 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificate Verification</title>
+    <title>Certificate Verifier</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Certificate Verification</h1>
-    </header>
-    <main>
-        <div id="verification-form">
-            <input type="text" placeholder="Enter Certificate Number" id="certificate-number" required>
-            <button id="verify-button">Verify</button>
-        </div>
+    <div class="parallax"></div>
+    <div class="content">
+        <h1>Certificate Verifier</h1>
+        <input type="text" id="certificateCode" placeholder="Enter Certificate Number">
+        <button onclick="verifyCertificate()">Verify</button>
         <div id="result"></div>
-    </main>
-    <footer>
-        <p>&copy; 2023 Our Company</p>
-    </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
