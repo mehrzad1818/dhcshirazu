@@ -19,15 +19,17 @@ body {
     padding: 50px;
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: -100px auto 0 auto; /* Make content overlap the parallax */
+    margin: -100px auto 0; /* Make content overlap the parallax */
     width: 80%;
     max-width: 600px;
+    border-radius: 10px; /* Optional: Adds rounded corners to the content box */
 }
 
 input[type="text"] {
     padding: 10px;
     margin: 20px 0;
-    width: 80%;
+    width: 100%; /* Ensure full-width input for better responsiveness */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 button {
@@ -36,6 +38,11 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px; /* Optional: Adds rounded corners to the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 #result {
